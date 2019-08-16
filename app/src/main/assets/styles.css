@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('file:///android_asset/fonts/nunitosans.ttf')
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-display: fallback;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #042338;
+    background-color: #fff;
+    font-size: 15px;
+    letter-spacing: .005em;
+    line-height: 28px;
+    padding: 16px;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
